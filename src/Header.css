@@ -1,0 +1,27 @@
+.Header {
+    color: #c0c0c0;
+}
+
+.Title{
+    font-size: 50px;
+    padding-left: 20px;
+}
+
+.Short {
+    padding-left: 20px;
+}
+
+.Shadow {
+    text-align: center;
+}
+
+.Img {
+    width: 65vw;
+    height: auto;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.Img:hover {
+    box-shadow: rgb(204, 219, 232) 8px 6px 6px 0px;
+}
