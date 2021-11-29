@@ -1,0 +1,20 @@
+.Header {
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: #6A2C70;
+    color: #ffffff;
+    padding: 20px;
+    width: 100%;
+}
+
+.Header--image {
+    margin-right: 6px;
+    filter: invert(100%);
+}
+
+.Header--title {
+    font-size: 1.25rem;
+    margin-right: auto;
+    letter-spacing: 5px;
+}
