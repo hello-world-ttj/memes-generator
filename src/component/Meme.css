@@ -13,6 +13,8 @@ main {
     border-radius: 5px;
     border: 1px solid #D5D4D8;
     text-indent: 5px;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 1px;
 }
 
 .Form--input:focus {
@@ -28,9 +30,52 @@ main {
     border: none;
     cursor: pointer;
     transition: all .20s;
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 1px;
 }
 
 .Form--btn:hover{
     background: #6A2C70;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.Meme {
+    position: relative;
+    text-align: center;
+}
+
+.Meme--image {
+    padding-top: 10px;
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+.Meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000, 2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
+
+.Footer {
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 2px;
 }
